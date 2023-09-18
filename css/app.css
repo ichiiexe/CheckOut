@@ -1,0 +1,163 @@
+:root{ --clrlinear: #30BDDC;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 375px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+/*top*/
+.top {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.top i{
+    font-size: 1.8rem;
+}
+
+.top p{
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+/*method*/
+.payment{
+    font-size: .9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+
+
+
+.pay__method{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.pay__method a{
+  display: flex;
+  color: #00A3FF;
+  font-size: .6rem;
+  font-weight: 500;
+
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .2rem;
+}
+
+.pay__method a i{
+    color: linear-gradient(to right, #30BDDC,  #00A3FF ) ;
+    background: white;
+    border: 2px solid #30BDDC;
+    font-size: 3rem;
+    border-radius: 12px;
+    padding: .8rem 1.5rem;
+    width: 100%;
+    height: 100%;
+
+    transition: 300ms ease;
+}
+
+.pay__method i:hover{
+    color: white;
+    background: linear-gradient(to right, #30BDDC,  #00A3FF) left;
+}
+
+/*Card Selector*/
+
+.card__selection{
+    padding: 4rem 2.5rem;
+
+    display:flex;
+    flex-direction: column;
+    place-items: center;
+}
+.card__selection p{
+    font-size: .8rem;
+}
+
+.card__selection a{
+    font-size: .9rem;
+    font-weight: 600;
+    color:#00A3FF;
+}
+
+.card__content{
+    position:relative;
+}
+
+.card__content .card{
+    position: absolute;
+    left: 4rem;
+    bottom: 4rem;
+}
+
+/*checkout*/
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .9rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    text-shadow: 0px 5px 8px grey;
+}
+
+.amount{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.btn{
+    font-size: 1rem;
+    color:white;
+    background: linear-gradient(to right, #30BDDC,  #00A3FF);
+
+    border: none;
+    border-radius: 30px;
+
+    padding: .8rem 2rem;
+    margin-inline: 2rem;
+
+    cursor: pointer;
+
+}
+
+
+
+
+

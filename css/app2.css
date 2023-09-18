@@ -1,0 +1,65 @@
+.wrapper{
+    position: relative;
+}
+.cardbox {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.card__info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: .4rem
+}
+
+.expcvc{
+    display: flex;
+    flex-direction: row;
+}
+label{
+    font-size: .8rem;
+}
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+a{
+    color: #00A3FF;
+    font-size: .8rem;
+
+    display: flex;
+    align-items: center;
+}
+
+a i{
+    font-size: 1.4rem;
+    padding-right: .5rem;
+}
+
+.master{
+    position: absolute;
+    right: 0;
+    bottom: 5.5rem;
+    height: 50px;
+}
+
+.save__info{
+    color: #00A3FF;
+    font-weight: 500;
+    margin-bottom: 2rem;
+
+    display: flex;
+    gap: .5rem;
+}
+
+

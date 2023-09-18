@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,900;1,100;1,300;1,800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/app.css">
+    <title>Checkout</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top">
+            <i class='bx bx-arrow-back' ></i>
+            <p>Order</p>
+        </div>
+        <h1>Checkout</h1>
+            <div>
+                <p class="payment">Select your payment method</p>
+                <div class="pay__method">
+                    <a><i class='bx bxl-apple' ></i>Apple Pay</a>
+                    <a><i class='bx bxs-credit-card'></i>Credit Card</a>
+                    <a><i class='bx bxl-paypal'></i>Paypal</a>
+                </div>
+            </div>
+        <h1 class="payment">Select your card</h1>
+            <div class="card__selection">
+                <div class="card__content">
+                    <img class="machine" src="img/Credit Machine.png">
+                    <img class="card" src="img/Payment Card.png">
+                </div>
+                <p>You don't have a credit card on file.</p>
+                    <a href="./newcard">Add a new card</a>
+            </div>
+        <div class="total">
+            <p>Total Amount</p>
+            <p class="amount">$29.90</p>
+        </div>
+        <button class="btn">Pay now</button>
+    </div>
+</body>
+</html>
